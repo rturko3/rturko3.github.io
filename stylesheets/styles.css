@@ -1,11 +1,26 @@
 #main-container {
     font: 'Cormorant';
-    max-width: 960px;
+    max-width: 1024px;
     padding: 25px 25px 25px 25px;
     margin: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    #sidebar {
+        text-align: center;
+    }
 }
 
 #main-container h1 {
     font-size: 30px;
     padding-bottom: 10px;
+}
+
+#main-container a {
+    margin-bottom: 0px;
+}
+
+.icon {
+    vertical-align: top;
+    display: inline;
 }
