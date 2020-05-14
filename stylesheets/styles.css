@@ -1,0 +1,11 @@
+#main-container {
+    font: 'Cormorant';
+    max-width: 960px;
+    padding: 25px 25px 25px 25px;
+    margin: auto;
+}
+
+#main-container h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
