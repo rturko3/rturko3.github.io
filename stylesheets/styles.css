@@ -11,11 +11,11 @@
     }
 }
 
-.profile-pic {
-	padding-bottom: 10px;
+#main-container h3 {
+    font-weight: bold;
 }
 
-#main-container h3 {
+#main-container h4 {
     font-weight: bold;
 }
 
