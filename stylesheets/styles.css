@@ -1,13 +1,11 @@
 #main-container {
     font: 'Cormorant';
-    max-width: 1024px;
-    padding: 25px 25px 25px 25px;
-    margin: auto;
 }
 
 @media only screen and (max-width: 1024px) {
     #sidebar {
         text-align: center;
+        margin: auto;
     }
 }
 
@@ -22,4 +20,11 @@
 .icon {
     vertical-align: top;
     display: inline;
+}
+
+@media only screen and (max-width: 1024px) {
+    .column.is-full-tablet-mobile {
+        flex: none;
+        width: 100%;
+    }
 }
