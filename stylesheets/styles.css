@@ -17,9 +17,18 @@
     font-weight: bold;
 }
 
-.icon {
-    vertical-align: top;
+.icon, .logo {
+    vertical-align: middle;
     display: inline;
+}
+
+.icon {
+	padding-right: 5px;
+}
+
+.logo {
+	float: left;
+	padding-right: 10px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -27,4 +36,23 @@
         flex: none;
         width: 100%;
     }
+}
+
+.container-employer {
+	display: flex;
+}
+
+.box-employer {
+	display: flex;
+	align-items: center;
+	font-size: 1rem;
+	padding-bottom: 20px;
+}
+
+.dates {
+	margin-left: auto;
+	display: inline-block;
+	font-style: italic;
+	color: #9a9ba7;
+	font-size: 1rem;
 }
