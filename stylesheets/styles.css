@@ -53,6 +53,15 @@ html {
     font-size: 1rem;
     padding-bottom: 25px;
     padding-right: 10px;
+    width: 80%
+}
+
+.box-employer-no-date {
+    display: flex;
+    align-items: flex-start;
+    font-size: 1rem;
+    padding-bottom: 25px;
+    padding-right: 10px;
 }
 
 .employer-info {
@@ -70,7 +79,6 @@ html {
     font-style: italic;
     color: #9a9ba7;
     font-size: 0.8rem;
-    width: 20%
 }
 
 .content ul {
