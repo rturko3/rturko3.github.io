@@ -71,3 +71,12 @@
 .content ul {
 	margin-left: 1.1em !important;
 }
+
+.employer-info .tags {
+	padding-top: 10px;
+}
+
+.publication-icon {
+    vertical-align: middle;
+    display: inline;
+}
