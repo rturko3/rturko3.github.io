@@ -6,6 +6,10 @@ html {
     font: 'Cormorant';
 }
 
+#sidebar {
+	padding-bottom: 0px;
+}
+
 @media only screen and (max-width: 1024px) {
     #sidebar {
         text-align: center;
@@ -105,5 +109,9 @@ a:not(.intro-links) {
 }
 
 a:hover {
-	border-bottom: 1px solid blue;
+	border-bottom: 1px solid #6AB1F7;
+}
+
+summary::-webkit-details-marker {
+    color: #6AB1F7;
 }
