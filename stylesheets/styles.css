@@ -99,3 +99,11 @@ html {
         display: none;
     }
 }
+
+a:not(.intro-links) {
+	color: inherit;
+}
+
+a:hover {
+	border-bottom: 1px solid blue;
+}
