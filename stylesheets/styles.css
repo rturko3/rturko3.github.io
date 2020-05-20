@@ -115,3 +115,7 @@ a:hover {
 summary::-webkit-details-marker {
     color: #6AB1F7;
 }
+
+summary:hover {
+	cursor: pointer;
+}
